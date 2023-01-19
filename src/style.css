@@ -33,6 +33,7 @@ header {
     position: absolute;
     top: 0;
     right: 110px;
+    margin-right: 20px;
 }
 
 .header-register {
