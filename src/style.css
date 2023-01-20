@@ -45,12 +45,14 @@ header {
     top: 0;
     right: 110px;
     margin-right: 20px;
+    padding: 20px;
 }
 
 .header-register {
     position: absolute;
     top: 0;
     right: 50px;
+    padding: 20px;
 }
 
 .container {
