@@ -17,6 +17,9 @@ header {
 .header-logo {
     float: left;
     padding: 30px;
+    position: relative;
+    left: 30px;
+    
 }
 
 .nav-wrap {
@@ -129,5 +132,10 @@ header {
 
 .container div {
     width: 600px;
-    margin-bottom: 15px;
 }
+
+.box div {
+    margin-top: -20px;
+}
+
+
