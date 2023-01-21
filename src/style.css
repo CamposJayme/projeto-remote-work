@@ -131,7 +131,7 @@ header {
 }
 
 .container div {
-    width: 600px;
+    width: 100%;
 }
 
 .box div {
@@ -141,18 +141,18 @@ header {
 @media (max-width: 500px) {
     .container .image {
         position: absolute;
-        bottom: 40px;
+        bottom: 170px;
+        width: 100%;
+
     }
 
     .container .image img {
-        width: 100%;
         height: 500px;
     }
 
     .box {
         position: relative;
         top: 520px;
-        width: 80%;
+        display: flexbox;
     }
 }
-
