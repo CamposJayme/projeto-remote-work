@@ -142,7 +142,7 @@ header {
     .container .image {
         position: absolute;
         top: 160px;
-        width: 100%;
+        width:100%;
     }
 
     .container .image img {
@@ -167,13 +167,27 @@ header {
         text-align: center;
     }
 
-    .box a button {
+    .box a {
         position: absolute;
-        left: 170px;
+        display: flex;
+        top: 180px;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .box div {
+        position: relative;
+        bottom: -170px;
+        width: 100%;
+        margin-bottom: 5px;
     }
 
     .box div img {
-        position: absolute;
-        bottom: -120px;
+        display: inline-block;
+        flex-direction: row;
+        align-items: center;
+        width: 19%;
+        margin-bottom: 30px;
     }
 }
